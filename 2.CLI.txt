@@ -1,0 +1,85 @@
+1.After creating a file by using 'touch' or a folder by using 'mkdir',the file/folder can be hidden by moving it under a new name.
+(.) should be place at the begining of the new name,it indicates that the file/folder is hidden.
+And it can be display by ' ls -a'.
+
+for folder:
+$ mkdir myfolder
+$ mv myfolder/ .myfolder/
+$ ls      ( checking > it is hidden, not displayed)
+$ ls -a   (now it's displayed)
+
+for file:
+$ touch myfile.txt
+$ mv myfile.txt .myfile.txt
+$ ls      ( checking > it is hidden, not displayed)
+$ ls -a   (now it's displayed)
+
+
+2. For creating multiple nested directory we can folow two methods:
+first one is longer way;
+$ cd c/users
+$ mkdir myusername
+$ cd myusername
+$ mkdir these
+$ cd these 
+$ mkdir folders
+$ cd are
+$ mkdir just
+$ cd just 
+$ mkdir for
+$ cd for 
+$ mkdir fun 
+$cd fun
+
+second one is shorter way;
+$ cd c/users
+$ mkdir -p myusername/these/folders/are/just/for/fun
+
+
+
+3.
+$ touch myfile.txt
+$ echo -n "first message" >> myfile.txt
+$ echo -e "\nsecond message" >> myfile.txt
+$ cat myfirst.txt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
