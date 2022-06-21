@@ -1,0 +1,21 @@
+body{
+  font-family: Verdana, sans-serif;
+  background: rgb(100, 158, 224);
+}
+h1{
+  font-size:36px;
+  font-weight: 900;
+}
+p,ul{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.copyright{
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+a{
+  color: rgb(187, 7, 166);
+}

@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  font-family: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5rem;
+}
+.container{
+  margin: 2rem auto;
+  width: 80%;
+  display: grid;
+}
+.leftCol{
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(175, 174, 174);
+  color: rgb(255, 247, 247);
+  padding: 2rem 0 2rem 2rem;
+  list-style: none;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+ul{
+  list-style: none;
+}
+.photo{
+  height: 10rem;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+img{
+  width: 10rem;
+  border-radius: 50%;
+  border: rgb(255, 247, 247) double 6px;
+}
+.title{
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  padding-top: 3rem;
+}
+ .contacts ul li span{
+  margin: 1rem;
+  font-weight: 500;
+}
+ul{
+  padding-top: 1rem;
+}
+.education ul li{
+  margin: 1rem auto;
+  
+}
+.education ul li h4,.education ul li h5{
+  font-weight: 500;
+}
+.skills .box{
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightCol{
+  grid-column: 2/4;
+  background: rgb(255, 247, 247);
+  color: rgb(59, 58, 58);
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.name{
+  height: 15rem;
+  text-align: center;
+  background: rgb(222, 219, 219);
+  padding: 5rem;
+  margin: 4rem 0;
+ 
+}
+.name h1{
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.profile,.experience{
+  margin: 3rem;
+}
+.profile .title,.experience .title{
+  margin-bottom: 1rem;
+}
+.experience .box{
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0;
+}
+.experience .box .year{
+  min-width: 15rem;
+}
+.experience .box .year h5{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.experience .box .text h4{
+  text-transform: uppercase;
+  font-weight: 500;
+}

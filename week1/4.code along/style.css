@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(laptop.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.nav-bar{
+  background: rgb(0,0,0,0.5);
+  height: 8rem;
+
+}
+.logo{
+  margin: 1rem .5rem;
+  height: 6rem;
+}
+
+.menu{
+float: right;
+list-style: none;
+margin:2rem;
+}
+.menu li{
+  display:inline-block;
+  margin:1rem .5rem;
+}
+.menu li a{
+  text-decoration:none;
+  color:#fff;
+  padding:5px 10px;
+  font-family: sans-serif;
+  letter-spacing: .2rem;
+  border: .1px solid #fff;
+}
+
+.menu li a:hover{
+  background: #fff;
+  color: #000;
+  transition: .4s;
+}
+.welcome{
+  position:relative;
+  text-align:center ;
+  font-family: sans-serif;
+  color: #fff;
+  top: 16rem;
+}
+.welcome h1{
+  font-size: 4rem;
+  margin: 2.5rem;
+}
+
+.btn{
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  margin: .5rem;
+  padding: .7rem 1rem;
+  text-decoration: none;
+  border: .1rem solid #fff;
+}
+.btn1{
+  background: #fff;
+  color: #000;
+}
+.btn2{
+  color: #fff;
+}
+.btn2:hover{
+  background:#fff ;
+  color: #000;
+}
+.btn1:hover{
+  background:rgba(0,0,0,0.1) ;
+  color: #fff;
+}
