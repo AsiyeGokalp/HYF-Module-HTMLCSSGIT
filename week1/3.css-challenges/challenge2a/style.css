@@ -13,9 +13,11 @@ body{
   text-align: center;
   background-color: rgb(244, 230, 204);
 }
+
 .line{
   border-top: 5px dashed black;
 }
+
 h1{
   display: inline;
   font-size:40px;
@@ -25,18 +27,22 @@ h1{
   letter-spacing: 1px;
   padding: 0 auto;
 }
+
 .line+p{
 margin:20px;
 }
+
 p,ul{
   font-size: 15px;
   font-weight: normal;
 }
+
 ul{
   text-align: center;
   list-style: none;
   font-style: italic;
 }
+
 ul li::first-letter{
   text-transform: uppercase;
   font-size:20px ;
@@ -48,6 +54,7 @@ ul li::first-letter{
   font-weight: normal;
  
 }
+
 a{
   color: rgb(13, 94, 244);
 }

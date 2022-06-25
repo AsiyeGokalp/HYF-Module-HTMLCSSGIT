@@ -9,6 +9,8 @@ html{
   margin:8% auto;
   height: 46rem;
 }
+
+
 #head{
 width: 32rem;
 height:32rem;
@@ -31,6 +33,8 @@ z-index: 1;
   top: 23rem;
   z-index: 2;
 }
+
+
 #beak{
   width: 15rem;
   height: 15rem;
