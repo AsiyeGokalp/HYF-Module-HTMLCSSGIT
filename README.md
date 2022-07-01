@@ -1,5 +1,5 @@
 # HYF-Module-HTMLCSSGIT
 
+<p>https://asiyegokalp.github.io/HYF-Module-HTMLCSSGIT/week1</p>
 
-https://asiyegokalp.github.io/HYF-Module-HTMLCSSGIT/week1
-https://asiyegokalp.github.io/HYF-Module-HTMLCSSGIT/week2
+<p>https://asiyegokalp.github.io/HYF-Module-HTMLCSSGIT/week2</p>
